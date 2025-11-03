@@ -1,17 +1,17 @@
 package shapes;
 
 class Rectangle extends Shape{
-    private double length;
-    private double width;
+    private double myLength;
+    private double myWidth;
 
     Rectangle(double theLength, double theWidth) {
-        length = theLength;
-        width = theWidth;
+        myLength = theLength;
+        myWidth = theWidth;
     }
 
     @Override
     public double getArea() {
-        return length * width;
+        return myLength * myWidth;
     }
 
     @Override
