@@ -1,6 +1,6 @@
 package shapes;
 
-public class Circle extends Shape {
+class Circle extends Shape {
     private double myRadius;
 
     public Circle(double theRadius) {
