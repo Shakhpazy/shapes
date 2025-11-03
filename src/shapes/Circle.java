@@ -3,7 +3,7 @@ package shapes;
 class Circle extends Shape {
     private double myRadius;
 
-    public Circle(double theRadius) {
+    Circle(double theRadius) {
         myRadius = theRadius;
     }
 

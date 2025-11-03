@@ -4,7 +4,7 @@ class Rectangle extends Shape{
     private double length;
     private double width;
 
-    public Rectangle(double theLength, double theWidth) {
+    Rectangle(double theLength, double theWidth) {
         length = theLength;
         width = theWidth;
     }
